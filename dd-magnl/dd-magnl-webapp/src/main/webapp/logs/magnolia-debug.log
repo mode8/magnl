@@ -1,0 +1,802 @@
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 00:49:39 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:49:39 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:49:39 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:49:39 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:39 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering prefix [mgnl] with URI http://www.magnolia.info/jcr/mgnl
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}metaData on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}lastModified on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}activatable on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}renderable on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}created on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}versionable on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}deleted on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}content on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}contentNode on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}folder on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}resource on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}reserve on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}page on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}area on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}component on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}user on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}role on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}group on repository magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:49:41 -- Registering nodetype {http://www.magnolia.info/jcr/mgnl}hasVersion on repository magnolia
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:49:42 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:49:42 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:49:42 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 00:49:43 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 00:49:43 -- /server/auditLogging does not exist, will return a new instance of class info.magnolia.audit.AuditLoggingManager.
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 00:49:43 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 00:49:44 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 00:49:44 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:49:44 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:49:44 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:49:44 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:49:44 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:49:44 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:49:44 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:49:44 -- Configuration loaded (took 4 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 00:49:44 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:49:44 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:49:44 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:54:05 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:54:05 -- Shutting down repository bound to 'webapp'
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- Attempt to close session-35 after it has already been closed. Please review your code for proper session management.
+java.lang.Exception: Stack trace of the duplicate attempt to close session-35
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:280)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.security.user.UserManagerImpl.loggedOut(UserManagerImpl.java:1172)
+	at org.apache.jackrabbit.core.SessionImpl.notifyLoggedOut(SessionImpl.java:565)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:1019)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.doDispose(RepositoryImpl.java:2242)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.dispose(RepositoryImpl.java:2196)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1123)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- session-35 has already been closed. See the attached exception for a trace of where this session was closed.
+java.lang.Exception: Stack trace of  where session-35 was originally closed
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:275)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1111)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- Attempt to close session-11 after it has already been closed. Please review your code for proper session management.
+java.lang.Exception: Stack trace of the duplicate attempt to close session-11
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:280)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.security.user.UserManagerImpl.loggedOut(UserManagerImpl.java:1172)
+	at org.apache.jackrabbit.core.SessionImpl.notifyLoggedOut(SessionImpl.java:565)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:1019)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.doDispose(RepositoryImpl.java:2242)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.dispose(RepositoryImpl.java:2196)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1123)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- session-11 has already been closed. See the attached exception for a trace of where this session was closed.
+java.lang.Exception: Stack trace of  where session-11 was originally closed
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:275)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1111)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- Attempt to close session-23 after it has already been closed. Please review your code for proper session management.
+java.lang.Exception: Stack trace of the duplicate attempt to close session-23
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:280)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.security.user.UserManagerImpl.loggedOut(UserManagerImpl.java:1172)
+	at org.apache.jackrabbit.core.SessionImpl.notifyLoggedOut(SessionImpl.java:565)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:1019)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.doDispose(RepositoryImpl.java:2242)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.dispose(RepositoryImpl.java:2196)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1123)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- session-23 has already been closed. See the attached exception for a trace of where this session was closed.
+java.lang.Exception: Stack trace of  where session-23 was originally closed
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:275)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1111)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- Attempt to close session-27 after it has already been closed. Please review your code for proper session management.
+java.lang.Exception: Stack trace of the duplicate attempt to close session-27
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:280)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.security.user.UserManagerImpl.loggedOut(UserManagerImpl.java:1172)
+	at org.apache.jackrabbit.core.SessionImpl.notifyLoggedOut(SessionImpl.java:565)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:1019)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.doDispose(RepositoryImpl.java:2242)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.dispose(RepositoryImpl.java:2196)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1123)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- session-27 has already been closed. See the attached exception for a trace of where this session was closed.
+java.lang.Exception: Stack trace of  where session-27 was originally closed
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:275)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1111)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- Attempt to close session-31 after it has already been closed. Please review your code for proper session management.
+java.lang.Exception: Stack trace of the duplicate attempt to close session-31
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:280)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.security.user.UserManagerImpl.loggedOut(UserManagerImpl.java:1172)
+	at org.apache.jackrabbit.core.SessionImpl.notifyLoggedOut(SessionImpl.java:565)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:1019)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.doDispose(RepositoryImpl.java:2242)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.dispose(RepositoryImpl.java:2196)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1123)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- session-31 has already been closed. See the attached exception for a trace of where this session was closed.
+java.lang.Exception: Stack trace of  where session-31 was originally closed
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:275)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1111)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- Attempt to close session-15 after it has already been closed. Please review your code for proper session management.
+java.lang.Exception: Stack trace of the duplicate attempt to close session-15
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:280)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.security.user.UserManagerImpl.loggedOut(UserManagerImpl.java:1172)
+	at org.apache.jackrabbit.core.SessionImpl.notifyLoggedOut(SessionImpl.java:565)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:1019)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.doDispose(RepositoryImpl.java:2242)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.dispose(RepositoryImpl.java:2196)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1123)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- session-15 has already been closed. See the attached exception for a trace of where this session was closed.
+java.lang.Exception: Stack trace of  where session-15 was originally closed
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:275)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1111)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- Attempt to close session-19 after it has already been closed. Please review your code for proper session management.
+java.lang.Exception: Stack trace of the duplicate attempt to close session-19
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:280)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.security.user.UserManagerImpl.loggedOut(UserManagerImpl.java:1172)
+	at org.apache.jackrabbit.core.SessionImpl.notifyLoggedOut(SessionImpl.java:565)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:1019)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.doDispose(RepositoryImpl.java:2242)
+	at org.apache.jackrabbit.core.RepositoryImpl$WorkspaceInfo.dispose(RepositoryImpl.java:2196)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1123)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+WARN   org.apache.jackrabbit.core.session.SessionState 10.02.2017 00:54:05 -- session-19 has already been closed. See the attached exception for a trace of where this session was closed.
+java.lang.Exception: Stack trace of  where session-19 was originally closed
+	at org.apache.jackrabbit.core.session.SessionState.close(SessionState.java:275)
+	at org.apache.jackrabbit.core.SessionImpl.logout(SessionImpl.java:981)
+	at org.apache.jackrabbit.core.XASessionImpl.logout(XASessionImpl.java:394)
+	at org.apache.jackrabbit.core.RepositoryImpl.doShutdown(RepositoryImpl.java:1111)
+	at org.apache.jackrabbit.core.RepositoryImpl.shutdown(RepositoryImpl.java:1074)
+	at org.apache.jackrabbit.core.jndi.BindableRepository.shutdown(BindableRepository.java:259)
+	at org.apache.jackrabbit.core.jndi.RegistryHelper.unregisterRepository(RegistryHelper.java:94)
+	at info.magnolia.jackrabbit.ProviderImpl.shutdownRepository(ProviderImpl.java:231)
+	at info.magnolia.repository.DefaultRepositoryManager.shutdown(DefaultRepositoryManager.java:124)
+	at info.magnolia.cms.beans.config.ContentRepository.shutdown(ContentRepository.java:151)
+	at info.magnolia.cms.beans.config.ConfigLoader.unload(ConfigLoader.java:127)
+	at info.magnolia.init.MagnoliaServletContextListener$2.doExec(MagnoliaServletContextListener.java:267)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:429)
+	at info.magnolia.context.MgnlContext$VoidOp.exec(MgnlContext.java:426)
+	at info.magnolia.context.MgnlContext.doInSystemContext(MgnlContext.java:400)
+	at info.magnolia.init.MagnoliaServletContextListener.stopServer(MagnoliaServletContextListener.java:264)
+	at info.magnolia.init.MagnoliaServletContextListener.contextDestroyed(MagnoliaServletContextListener.java:204)
+	at org.apache.catalina.core.StandardContext.listenerStop(StandardContext.java:4774)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5411)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:226)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1419)
+	at org.apache.catalina.core.ContainerBase$StopChild.call(ContainerBase.java:1408)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 00:54:15 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:54:15 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:54:15 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:54:15 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:54:15 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:54:17 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:54:17 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:54:17 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 00:54:17 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 00:54:18 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 00:54:19 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 00:54:19 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:54:19 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:54:19 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:54:19 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:54:19 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:54:19 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:54:19 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:54:19 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 00:54:19 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:54:19 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:54:19 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:55:38 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:55:38 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 00:58:01 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:58:01 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:58:01 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:58:01 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:58:01 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:58:03 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:58:03 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:58:03 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 00:58:04 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 00:58:04 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 00:58:05 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 00:58:05 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:58:05 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:58:05 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:58:05 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:58:05 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:58:05 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:58:05 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:58:05 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 00:58:05 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:58:05 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:58:05 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:59:33 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:59:33 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 00:59:50 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:59:50 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:59:50 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:59:50 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 00:59:50 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:59:52 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:59:52 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 00:59:52 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 00:59:53 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 00:59:53 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 00:59:53 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 00:59:53 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:59:53 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:59:53 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 00:59:53 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:59:53 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:59:53 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 00:59:53 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 00:59:53 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 00:59:53 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:59:53 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 00:59:53 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:01:41 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:01:41 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:01:50 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:01:50 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:01:50 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:01:50 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:01:50 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:01:52 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:01:52 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:01:52 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:01:53 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:01:54 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:01:54 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:01:54 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:01:54 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:01:54 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:01:54 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:01:54 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:01:54 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:01:54 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:01:54 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:01:54 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:01:54 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:01:54 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:02:40 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:02:40 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:04:26 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:04:26 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:04:26 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:04:26 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:04:26 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:04:27 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:04:27 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:04:27 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:04:28 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:04:29 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:04:29 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:04:29 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:04:29 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:04:29 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:04:29 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:04:29 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:04:29 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:04:29 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:04:29 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:04:29 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:04:29 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:04:29 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:07:21 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:07:21 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:07:31 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:07:31 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:07:31 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:07:31 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:07:31 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:07:32 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:07:32 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:07:32 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:07:33 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:07:34 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:07:34 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:07:34 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:07:34 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:07:34 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:07:34 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:07:34 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:07:34 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:07:34 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:07:34 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:07:34 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:07:34 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:07:34 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:09:41 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:09:41 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:09:57 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:09:57 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:09:57 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:09:57 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:09:57 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:09:59 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:09:59 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:09:59 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:10:00 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:10:00 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:10:00 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:10:00 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:10:00 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:10:00 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:10:00 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:10:00 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:10:00 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:10:00 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:10:00 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:10:00 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:10:00 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:10:00 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:10:28 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:10:28 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:11:04 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:11:05 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:11:05 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:11:05 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:11:05 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:11:06 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:11:06 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:11:06 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:11:07 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:11:08 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:11:08 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:11:08 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:11:08 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:11:08 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:11:08 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:11:08 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:11:08 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:11:08 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:11:08 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:11:08 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:11:08 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:11:08 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:14:41 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:14:41 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:18:17 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:18:17 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:18:17 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:18:17 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:18:17 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:18:19 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:18:19 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:18:19 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:18:20 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:18:20 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:18:21 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:18:21 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:18:21 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:18:21 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:18:21 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:18:21 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:18:21 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:18:21 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:18:21 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:18:21 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:18:21 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:18:21 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:21:05 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:21:05 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:22:27 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:22:27 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:22:27 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:22:27 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:22:27 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:22:59 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:22:59 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:22:59 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:22:59 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:22:59 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+WARN   org.apache.jackrabbit.core.util.RepositoryLock 10.02.2017 01:22:59 -- Existing lock file /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia/.lock detected. Repository was not shut down properly.
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:23:01 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:23:01 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:23:01 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:23:02 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:23:03 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:23:03 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:23:03 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:23:03 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:23:03 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:23:03 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:23:03 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:23:03 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:23:03 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:23:03 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:23:03 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:23:03 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:23:03 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:24:19 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:24:19 -- Shutting down repository bound to 'webapp'
+INFO   info.magnolia.init.MagnoliaServletContextListener 10.02.2017 01:24:31 -- Property sources loaded: [DefaultMagnoliaConfigurationProperties with sources: [SystemPropertySource][ServletContextPropertySource from WEB-INF/config/default/magnolia.properties][ModulePropertiesSource from modules [core, dam, freemarker-support, lang-el, activation, categorization-support, ce-product-descriptor, imaging-support, resource-loader, rest-client, rest-integration, cache, config, i18n, rest-services, dam-jcr, ehcache, rendering, ui-framework, appswitcher, imaging, resteasy-client, scheduler, templating, ui-mediaeditor, resources, task-management, templating-jsp, ui-admincentral, about-app, cache-app, groovy, log-tools, magnolia-resources-templating, mail, messages-app, pages, resources-app, security-app, site, ui-contentapp, cache-browser-app, contacts, dam-app, dam-imaging, dam-templating, definitions-app, form, forum, google-sitemap, jcr-browser-app, jcr-tools, mte-imaging, site-app, commenting, lang-da, mte, mtk, rssaggregator, categorization, lang-ar, lang-cs, lang-de, lang-es, lang-fi, lang-fr, lang-he, lang-hr, lang-hu, lang-id, lang-it, lang-ja, lang-ko, lang-nl, lang-no, lang-pl, lang-pt, lang-pt_BR, lang-ru, lang-sk, lang-sq, lang-sv, lang-tr, lang-zh_CN, lang-zh_TW, webapp]][InitPathsPropertySource]]
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:24:31 -- Initializing content repositories
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:24:31 -- Loading JCR
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:24:31 -- Loading JCR magnolia
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:24:31 -- Loading repository at /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/repositories/magnolia (config file: /Users/marcomodenini/magnolia/dd-magnolia/magnl/dd-magnl/dd-magnl-webapp/src/main/webapp/WEB-INF/config/repo-conf/jackrabbit-bundle-h2-search.xml) - cluster id: "<unset>"
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:24:32 -- Loading workspace mgnlVersion (logical name magnolia-mgnlVersion).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:24:32 -- Loading workspace default (logical name default).
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:24:32 -- Loading workspace mgnlSystem (logical name magnolia-mgnlSystem).
+INFO   info.magnolia.context.LifeTimeJCRSessionUtil 10.02.2017 01:24:33 -- Will handle lifetime sessions because the system context is of type interface info.magnolia.context.ThreadDependentSystemContext
+INFO   info.magnolia.objectfactory.ObservedComponentFactory 10.02.2017 01:24:34 -- /server/rendering/freemarker does not exist, will return a new instance of class info.magnolia.freemarker.FreemarkerConfig.
+INFO   info.magnolia.module.webapp.WebappVersionHandler 10.02.2017 01:24:34 -- Content was not found in the repository, will bootstrap web-app.
+INFO   info.magnolia.module.ui.ModuleManagerWebUI 10.02.2017 01:24:34 -- 
+*********************************************************************************************************
+*                                                                                                       *
+* Magnolia needs module updates or installs, point your browser to your Magnolia instance and confirm ! *
+*                                                                                                       *
+*********************************************************************************************************
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:24:34 -- Loading i18n configuration - /server/i18n/system
+WARN   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:24:34 -- /server/i18n/system does not exist yet; skipping.
+INFO   info.magnolia.cms.i18n.DefaultMessagesManager 10.02.2017 01:24:34 -- Registering event listener for i18n
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:24:34 -- Initializing MIMEMapping from /server/MIMEMapping
+WARN   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:24:34 -- No MIMEMapping info configured at /server/MIMEMapping
+INFO   info.magnolia.cms.beans.config.MIMEMapping 10.02.2017 01:24:34 -- Registering event listener for MIMEMapping
+INFO   info.magnolia.cms.beans.config.ConfigLoader 10.02.2017 01:24:34 -- Configuration loaded (took 3 seconds)
+INFO   info.magnolia.cms.filters.FilterManagerImpl 10.02.2017 01:24:34 -- Initializing filters
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:24:34 -- Initializing filter [Wrapper for Resources Servlet servlet]
+INFO   info.magnolia.cms.filters.CompositeFilter 10.02.2017 01:24:34 -- Initializing filter [install]
+INFO   info.magnolia.repository.DefaultRepositoryManager 10.02.2017 01:24:52 -- Shutting down JCR
+INFO   info.magnolia.jackrabbit.ProviderImpl 10.02.2017 01:24:52 -- Shutting down repository bound to 'webapp'

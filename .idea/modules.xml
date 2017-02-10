@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dd-magnl/dd-magnl.iml" filepath="$PROJECT_DIR$/dd-magnl/dd-magnl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dd-magnl/dd-magnl-webapp/dd-magnl-webapp.iml" filepath="$PROJECT_DIR$/dd-magnl/dd-magnl-webapp/dd-magnl-webapp.iml" />
+    </modules>
+  </component>
+</project>
